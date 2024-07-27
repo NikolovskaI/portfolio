@@ -167,6 +167,7 @@ h2 {
   justify-content: space-between;
   width: 100%;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .prototype,
@@ -179,6 +180,7 @@ h2 {
   padding: 10px 15px;
   text-transform: lowercase;
   cursor: pointer;
+  text-align: center;
 }
 
 .prototype:hover,
@@ -194,12 +196,7 @@ h2 {
   justify-content: space-between;
   width: 100%;
   gap: 30px;
-}
-
-.project-images img {
-  width: calc(25% - 30px);
-  height: 100%;
-
+  flex-wrap: wrap;
 }
 
 .tinyones-img {
@@ -285,35 +282,46 @@ h2 {
 
 .footer-inner {
   display: flex;
-  background-image: url(images/me.png);
+  /*background-image: url(images/me.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  height: 80vh;
+  background-size: contain;*/
+  /*height: 80vh;*/
+  width: 70%;
   justify-content: center;
+  background-color: rgb(255, 252, 245);
+  box-shadow: 10px 10px rgb(50, 61, 107);
+  border-radius: 30px 30px 100px 30px;
 }
 
 
 
 .footer-left {
-  width: 26%;
+  width: 65%;
   color: #895159;
-  font-size: 15px;
+  font-size: 24px;
   padding: 15px;
   margin-right: 30px;
   font-family: "Akshar Regular";
-  margin-left: 230px;
+  /*margin-left: 230px;*/
+  /*height: auto;*/
 }
 
 .footer-right {
-  width: 26%;
+  float: right;
+  width: 25%;
   color: #895159;
   font-size: 24px;
   font-family: "Akshar Bold";
   display: flex;
   flex-direction: column;
-  padding: 400px;
+  margin-bottom: 20px;
+  /*padding: 400px;*/
   /* margin-left: 270px; */
+}
+
+.footer-right img{
+  padding-top: 2em;
 }
 
 .photo-by {
@@ -321,7 +329,7 @@ h2 {
   font-size: 15px;
   text-decoration: none !important;
   text-align: right;
-  margin-right: calc(100% - 250px);
+  /*margin-right: calc(100% - 250px);*/
   font-size: 16px !important;
   font-family: "Akshar Regular" !important;
 }
@@ -331,4 +339,35 @@ h2 {
   color: #895159;
   font-size: 16px;
   font-family: "Akshar Bold";
+  display: block;
+  word-wrap: break-word;
+}
+
+/* Screen media */
+
+@media only screen and (max-width: 600px) {
+  .project-images {
+    place-content: center;
+  }
+
+  .project-images img {
+    width: calc(25%-30px);
+    height: auto;
+  }
+
+  .project-attributes-btns{
+    max-width: 60%;
+    place-content: center;
+  }
+
+  .project-attributes-btns * {
+    width: 110px;
+  }
+
+  .footer-inner {
+    width: 100%;
+  }
+  .footer-left {
+    width: 50%;
+  }
 }
