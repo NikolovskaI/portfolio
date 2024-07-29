@@ -395,6 +395,12 @@ h2 {
     margin-bottom: 10px;
 }
   
+  #tinyones h2,
+#gastro h2,
+#lingojet h2,
+#aster h2 {
+  padding: 20px 200px !important;
+}
 
   .responsive {
   width: 70%;
