@@ -416,47 +416,5 @@ h2 {
   height: 80vh;
   justify-content: center;
 }
-
-
-
-.footer-left {
-]
-  font-size: 10px;
-  padding: 0px;
-  margin-right: 25px;
-  font-family: "Akshar Regular";
-  margin-left: -8px;
-  margin-top: 69px;
-}
-
-.footer-right {
-  width: 26%;
-  color: #895159;
-  font-size: 20px;
-  font-family: "Akshar Bold";
-  display: flex;
-  flex-direction: column;
-  padding: 28px;
-  margin-lefr: 0px;
-  /* margin-left: 30px; */
-}
-
-.photo-by {
-  margin-bottom: 10px;
-  font-size: 12px;
-  text-decoration: none !important;
-  text-align: right;
-  margin-right: calc(100% - 250px);
-  font-size: 9px !important;
-  font-family: "Akshar Regular" !important;
-}
-
-.footer-right a {
-  text-decoration: underline;
-  color: #895159;
-  font-size: 16px;
-  font-family: "Akshar Bold";
-}
-
 }
 }
