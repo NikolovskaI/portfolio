@@ -362,6 +362,7 @@ h2 {
   .project-attributes-btns{
     max-width: 60%;
     place-content: center;
+    magrin-bottom: 10px;
   }
 
   .project-attributes-btns * {
