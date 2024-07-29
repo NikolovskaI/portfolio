@@ -346,6 +346,10 @@ h2 {
 /* Screen media */
 
 @media only screen and (max-width: 600px) {
+  body {
+  background-color: #BABDE2;
+  overflow-x: hidden !important;
+  }
   .project-images {
     place-content: center;
   }
@@ -383,5 +387,13 @@ h2 {
   padding: 10px 50px;
   width: fit-content;
   margin-top: -20px;
+}
+  project-attributes-btns {
+  display: flex;
+  max-width: 60%;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
 }
