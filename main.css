@@ -396,4 +396,8 @@ h2 {
   margin-top: 50px;
   flex-wrap: wrap;
 }
+  .responsive {
+  width: 50%;
+  height: auto;
+}
 }
