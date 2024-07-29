@@ -375,9 +375,9 @@ h2 {
 }
   project-attributes-btns {
   display: flex;
-  max-width: 60%;
+  max-width: 100%;
   justify-content: space-between;
-  width: 60%;
+  width: 80%;
   margin-top: 50px;
   flex-wrap: wrap;
     margin-bottom: 15px;
