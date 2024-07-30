@@ -253,11 +253,15 @@ h2 {
 }
 
 .popup-inner {
+  width: 80%;
   position: relative;
+  height: auto;
 }
 
 .popup-style-inner {
+  width: 80%;
   position: relative;
+  height: auto;
 }
 
 .close-poup-style,
