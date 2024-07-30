@@ -409,7 +409,7 @@ h2 {
     .footer-inner {
       width: 90%;
   display: flex;
-  background-image: url(images/me phone.png);
+  background-image: url(images/pozadina.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -455,6 +455,9 @@ h2 {
 }
       .slika {
   width: 50%;
+         .text {
+  width: 50%;
+        
 }
 }
 }
