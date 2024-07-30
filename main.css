@@ -409,7 +409,7 @@ h2 {
     .footer-inner {
       width: 90%;
   display: flex;
-  background-image: url(images/me photo.png);
+  background-image: url(images/meslika.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -427,13 +427,15 @@ h2 {
 }
 
 .footer-right {
-  width: 26%;
+  width: 39%;
   color: #895159;
-  font-size: 10px;
+  font-size: 9px;
   font-family: "Akshar Bold";
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 63px;
+  margin-left:38px;
+  margin-top:232px;
   /* margin-left: 30px; */
 }
 
@@ -452,6 +454,7 @@ h2 {
   color: #895159;
   font-size: 12px;
   font-family: "Akshar Bold";
+  margin-top:0px;
 
 }
 }
