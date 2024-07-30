@@ -282,7 +282,7 @@ h2 {
 
 .footer-inner {
   display: flex;
-  background-image: url(images/pozadina.png);
+  background-image: url(images/meslika.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -409,7 +409,7 @@ h2 {
     .footer-inner {
       width: 90%;
   display: flex;
-  background-image: url(images/pozadina.png);
+  background-image: url(images/me photo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
